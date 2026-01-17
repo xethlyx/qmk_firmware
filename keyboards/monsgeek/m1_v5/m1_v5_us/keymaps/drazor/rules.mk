@@ -1,0 +1,14 @@
+EEPROM_ENABLE = yes
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+VIA_ENABLE = yes
+LTO_ENABLE = no
+RAW_ENABLE = no
+AUTOCORRECT_ENABLE = yes
+COMBO_ENABLE = yes
+RGB_MATRIX_ENABLE = yes
+EEPROM_DRIVER = wear_leveling
+WEAR_LEVELING_DRIVER = embedded_flash
+STENO_ENABLE = no
+SERIAL_ENABLE = no
+SRC += eeprom_settings.c
